@@ -11,4 +11,4 @@ Główne funkcje aplikacji obejmują:
 4. Porównywanie cen: Aplikacja umożliwia porównywanie cen różnych dostawców dla danej części, co pomaga użytkownikom znaleźć najlepszą ofertę.
 
 5. Koszyk i płatności: Umożliwia dodawanie wybranych części do koszyka i dokonywanie płatności online w prosty i bezpieczny sposób.
-Aplikacja będzie dostępna na Android jak i na IOS. 
+
