@@ -1,4 +1,4 @@
-# Projekt
+Car App
 Projekt aplikacji na zaliczenie
 Aplikacja będzie dotyczyła sklepu z częściami samochodowymi. Aplikacja oferować będzie szeroki wybór komponentów do różnych marek i modeli pojazdów, obejmując silniki, hamulce, zawieszenie, oświetlenie i wiele innych.
 Główne funkcje aplikacji obejmują:
