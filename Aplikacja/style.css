@@ -1,9 +1,119 @@
+* {
+    margin: 0px;
+  }
+
 body{
-    background-color: white;
+    background-color: rgb(187, 187, 187);
     
 }
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'header header header header header header header header header header header header'
+    'page page page page page page page page page page page page'
+    '. end end end end end end end end . . .' 
+    'footer footer footer footer footer footer footer footer footer footer footer footer'
+    'a a a a a a a a a a a a'  ; 
+    
+
+
+}
+
+
 .header{
-    background-color: cyan;
+    background-color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    height: auto;
+    grid-area: header;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    
     
 }
+
+nav{
+    background-color: yellow;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 0;
+    position: sticky;
+    height: auto;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.page {
+    text-align: center;
+    padding-top: 70px;
+    width: 50%;
+    height: 50px;
+    grid-area: page;
+}
+
+.end {
+    padding-top: 300px;
+    grid-area: end;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #232323;
+    color: white;
+    text-decoration: none;
+    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2;
+  
+  } 
+  .stopka-1{
+    grid-column: 3/6;
+    grid-row: 1/2;
+    
+  }
+  .stopka-2{
+    grid-column: 3/6;
+    grid-row: 2/3;
+  }
+  .stopka-3{
+    grid-column: 6/8;
+    grid-row: 2/3;
+  }
+  .stopka-4{
+    grid-column: 8/10;
+    grid-row: 2/3;
+  }
+  
+  li a:hover{
+    background-color: rgb(67, 113, 113);
+    
+  }
+
+  .autor{
+    grid-area: a;
+    text-align: center;
+    background-color: #353434;
+    color: white;
+}
+  
