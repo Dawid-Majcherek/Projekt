@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+body {
+    background-color: grey;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:'nav nav nav nav nav nav nav nav nav nav nav nav'
+    'main main main main main main main main main main main main'
+    'offer offer offer offer offer offer offer offer offer offer offer offer';
+
+}
+.naw{
+    background-color: yellow;
+}
+
+.naw ul li a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightyellow;
+}
+
+nav{
+    grid-area: nav;
+    background-color: yellow;
+    width: 100%;
+    padding-left: 850px;
+    font-size: 20px;
+    height: 90px;
+    padding-right: 50px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 0;
+    position: sticky;
+    height: auto;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.main {
+    grid-area: main;
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    
+
+}
+
+.offer{
+    grid-area: offer;
+     margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.offer img {
+    width: 100%;
+    height: auto;
+}
+
+.offer p {
+    padding: 15px;
+    text-align: center;
+}
